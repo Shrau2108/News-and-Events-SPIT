@@ -57,9 +57,9 @@ export const Header: React.FC = () => {
                     ? 'bg-gradient-to-br from-primary-600 to-accent-teal' 
                     : 'bg-white/20 backdrop-blur-md border border-white/30'
                 }`}>
-                  <TrendingUp className={`w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8 ${
-                    isScrolled ? 'text-white' : 'text-white'
-                  }`} />
+                  <img className={`w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8 rounded-lg ${
+                    isScrolled ? 'text-white' : 'text-white' 
+                  }`} src="/assets/SPIT.png" alt="Logo" />
                 </div>
               </div>
               <div className="hidden xs:block min-w-0 flex-1">
@@ -112,7 +112,7 @@ export const Header: React.FC = () => {
                 <span>Events</span>
               </button>
               <a
-                href="/"
+                href="https://spit-website.vercel.app/"
                 className={`text-sm font-medium px-3 xl:px-4 py-2 rounded-lg transition-all duration-500 whitespace-nowrap ${
                   isScrolled
                     ? 'text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-accent-teal hover:bg-gray-100 dark:hover:bg-dark-800'
@@ -168,7 +168,7 @@ export const Header: React.FC = () => {
                 <span>Events</span>
               </button>
               <a
-                href="/"
+                href="https://spit-website.vercel.app/"
                 className="flex items-center space-x-3 w-full px-4 py-3 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-800 rounded-lg transition-all duration-300 font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
