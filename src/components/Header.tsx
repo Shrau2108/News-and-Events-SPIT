@@ -168,7 +168,7 @@ export const Header: React.FC = () => {
                 <span>Events</span>
               </button>
               <a
-                href="https://spit-website.vercel.app/"
+                href="https://spit-website.vercel.app/home"
                 className="flex items-center space-x-3 w-full px-4 py-3 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-800 rounded-lg transition-all duration-300 font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
